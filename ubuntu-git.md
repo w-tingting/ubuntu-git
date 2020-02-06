@@ -16,4 +16,7 @@ ssh-keygen -C '邮箱地址' -trsa
   - 使用命令`cd ~/.ssh`进入`~/.ssh`文件夹；
   - 输入`gedit id_rsa.pub`打开`id_rsa.pub`文件，复制其中所有内容；
   - 在GitHub上加入SSH公钥
-  
+- 建立关联
+```
+git remote add origin git@github.com:w-tingting/ubuntu-git.git
+```
